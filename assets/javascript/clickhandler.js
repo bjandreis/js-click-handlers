@@ -30,8 +30,8 @@ counter_button.addEventListener("click", function () {
     * then updates the inner text of "countspan"
     * to show the current value of "count".
     */
-   console.log("counter_button clicked " + count + " times");
    count = count + 1;
+   console.log("counter_button clicked " + count + " times");
    countspan.innerHTML = count;
 })
 const even_or_odd_button = document.querySelector("#even_or_odd_button");
